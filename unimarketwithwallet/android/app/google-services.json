@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1087224209323",
+    "project_id": "final-cryptowallet",
+    "storage_bucket": "final-cryptowallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087224209323:android:8f3905ded0cc1b110b7cee",
+        "android_client_info": {
+          "package_name": "com.example.unimarketwithwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087224209323-vhnj0gginit3bhctldq9bq485gbg1udb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj_Mtelcw1p1i1lEfFtkgXB7nqpyhB678"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087224209323-vhnj0gginit3bhctldq9bq485gbg1udb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
