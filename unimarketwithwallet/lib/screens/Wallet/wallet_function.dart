@@ -44,7 +44,7 @@ Future<bool> removeCoin(String id, String amount) async {
         documentReference.set({'Amount': value});
         return true;
       }
-      if (snapshot.get('Amount') < value) {
+      if (double.parse(snapshot.get('Amount').toString()) < value) {
         FirebaseFirestore.instance
             .collection('Users')
             .doc(uid)
