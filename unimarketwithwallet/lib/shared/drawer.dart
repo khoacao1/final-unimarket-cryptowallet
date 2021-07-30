@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:unimarketwithwallet/screens/Wallet/mainwallet.dart';
 import 'package:unimarketwithwallet/screens/wrapper.dart';
 import 'package:unimarketwithwallet/services/auth.dart';
 import 'package:unimarketwithwallet/shared/customlisttile.dart';
@@ -19,10 +20,10 @@ class _DrawerCommonState extends State<DrawerCommon> {
             Navigator.of(context).pushReplacement(
                 MaterialPageRoute(builder: (context) => Wrapper()));
           }),
-          // CustomListTile(Icons.person, 'Profile', () {
-          //   Navigator.of(context).pushReplacement(
-          //       MaterialPageRoute(builder: (context) => Profile()));
-          // }),
+          CustomListTile(Icons.account_balance, 'Crypto Wallet', () {
+            Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (context) => MainWallet()));
+          }),
           // CustomListTile(Icons.settings, 'Settings', () {
           //   Navigator.of(context).pushReplacement(
           //       MaterialPageRoute(builder: (context) => Setting()));
